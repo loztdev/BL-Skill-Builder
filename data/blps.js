@@ -557,7 +557,7 @@ window.BL_DATA.blps = {
           name: "Hero of This Story",
           tierThresholds: [0, 5, 10, 15, 20, 25],
           skills: [
-            { id: "jack_expendable_assets", name: "Expendable Assets", tier: 1, col: 1, maxPoints: 1, type: "action",
+            { id: "jack_expendable_assets", name: "Expendable Assets", tier: 0, col: 1, maxPoints: 1, type: "action",
               description: "Action Skill: Jack summons two Digi-Jacks that fight alongside him. Higher investment improves their effectiveness.",
               ranks: ["Summon 2 Digi-Jacks to fight for 15s"] },
             { id: "jack_leadership", name: "Leadership", tier: 1, col: 2, maxPoints: 5, type: "passive",
@@ -693,7 +693,7 @@ window.BL_DATA.blps = {
           name: "Cold Money",
           tierThresholds: [0, 5, 10, 15, 20, 25],
           skills: [
-            { id: "aurelia_cold_snap", name: "Cold Snap", tier: 1, col: 1, maxPoints: 1, type: "action",
+            { id: "aurelia_cold_snap", name: "Cold Snap", tier: 0, col: 1, maxPoints: 1, type: "action",
               description: "Action Skill: Aurelia hurls a cryo orb that bounces between enemies, applying cryo status effects and dealing damage.",
               ranks: ["Orb bounces up to 5 times; applies cryo to each target"] },
             { id: "aurelia_winter_is_over", name: "Winter's Veil", tier: 1, col: 2, maxPoints: 5, type: "passive",
