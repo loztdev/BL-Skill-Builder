@@ -51,8 +51,7 @@ const BLState = (() => {
   }
 
   function isTierUnlocked(tree, tier) {
-    if (tier === 0) return true;
-    const threshold = tree.tierThresholds[tier];
+    const threshold = tree.tierThresholds[tier - 1];
     if (threshold === undefined) return true;
     return pointsInTree(tree) >= threshold;
   }
