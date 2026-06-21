@@ -338,7 +338,34 @@ main#mainArea{
 .ai-response.error{border-color:var(--danger); color:#ff9d8a;}
 
 @media (max-width: 900px){
-  main#mainArea{flex-direction:column;}
+  main#mainArea{flex-direction:column; padding:12px; gap:12px;}
   .sidebar{width:100%; flex:0 0 auto;}
-  .trees-wrap{flex-direction:column;}
+  .trees-wrap{flex-direction:column; overflow-x:visible; padding-bottom:0;}
+  .tree-col{min-width:0; width:100%;}
+  .skill-row{justify-content:flex-start;}
+  .skill-card{width:calc(33.33% - 6px); min-width:90px;}
+}
+
+@media (max-width: 600px){
+  .topbar{flex-wrap:wrap; gap:8px; padding:10px 14px;}
+  .topbar h1{font-size:18px;}
+  .topbar-actions{gap:6px;}
+  .game-tabs, .char-tabs{padding:8px 10px; gap:4px;}
+  .tab-btn{padding:6px 10px; font-size:12px;}
+
+  main#mainArea{padding:8px; gap:10px;}
+
+  .skill-card{width:calc(50% - 4px);}
+  .skill-controls button{width:30px; height:30px; font-size:15px;}
+
+  .export-block{padding:10px;}
+  #exportOutput{min-height:100px;}
+  .export-row .btn{padding:8px 6px; font-size:12px;}
+
+  /* AI panel: full-viewport-width slide-in on narrow screens */
+  .ai-panel{width:100%; right:-100%;}
+  .ai-panel.open{right:0;}
+
+  /* Skill modal: full width on mobile */
+  .skill-modal{width:95%; padding:14px;}
 }
