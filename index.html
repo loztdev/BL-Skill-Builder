@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BL Skill Builder</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <h1>BL <span>Skill Builder</span></h1>
+  <div class="topbar-actions">
+    <button id="resetBtn" class="btn btn-ghost">Reset Build</button>
+    <button id="aiToggleBtn" class="btn btn-accent">AI Assistant</button>
+  </div>
+</header>
+
+<nav class="game-tabs" id="gameTabs"></nav>
+
+<div class="char-tabs" id="charTabs"></div>
+
+<main id="mainArea">
+  <div class="trees-wrap" id="treesWrap"></div>
+
+  <aside class="sidebar">
+    <div class="points-summary" id="pointsSummary"></div>
+
+    <div class="export-block">
+      <h3>Export Build</h3>
+      <button id="exportCompactBtn" class="btn btn-primary full">Compact Export (names + points)</button>
+      <button id="exportFullBtn" class="btn btn-primary full">Full Export (with descriptions)</button>
+      <textarea id="exportOutput" readonly placeholder="Your exported build will appear here..."></textarea>
+      <div class="export-row">
+        <button id="copyExportBtn" class="btn btn-ghost">Copy</button>
+        <button id="downloadExportBtn" class="btn btn-ghost">Download .txt</button>
+      </div>
+    </div>
+  </aside>
+</main>
+
+<div class="skill-modal-backdrop" id="skillModalBackdrop">
+  <div class="skill-modal" id="skillModal"></div>
+</div>
+
+<div class="ai-panel" id="aiPanel">
+  <div class="ai-panel-header">
+    <h2>AI Build Assistant</h2>
+    <button id="aiCloseBtn" class="btn btn-ghost">&times;</button>
+  </div>
+
+  <div class="ai-panel-body">
+    <p class="ai-note">
+      Bring your own API key for any major provider. Keys are stored only in your browser's
+      <code>localStorage</code> and are sent directly from your browser to the provider's API &mdash;
+      never to any server we run. Some providers block direct browser requests (CORS); if a call
+      fails, see the note below about using a local proxy.
+    </p>
+
+    <label class="field-label" for="aiProviderSelect">Provider</label>
+    <select id="aiProviderSelect" class="field">
+      <option value="anthropic">Anthropic (Claude)</option>
+      <option value="openai">OpenAI (GPT)</option>
+      <option value="google">Google (Gemini)</option>
+      <option value="xai">xAI (Grok)</option>
+      <option value="mistral">Mistral</option>
+    </select>
+
+    <label class="field-label" for="aiModelInput">Model</label>
+    <input id="aiModelInput" class="field" type="text" placeholder="e.g. claude-sonnet-4-6">
+
+    <label class="field-label" for="aiKeyInput">API Key</label>
+    <input id="aiKeyInput" class="field" type="password" placeholder="sk-... / your provider key">
+
+    <label class="field-label" for="aiQuestionInput">Ask about your current build</label>
+    <textarea id="aiQuestionInput" class="field" rows="3" placeholder="e.g. Is this a good leveling build? What should I respec?"></textarea>
+
+    <button id="aiSendBtn" class="btn btn-accent full">Send to AI</button>
+
+    <div class="ai-response" id="aiResponse"></div>
+  </div>
+</div>
+<div class="ai-panel-backdrop" id="aiPanelBackdrop"></div>
+
+<script src="data/bl1.js"></script>
+<script src="data/bl2.js"></script>
+<script src="data/blps.js"></script>
+<script src="data/bl3.js"></script>
+<script src="data/wonderlands.js"></script>
+<script src="data/bl4.js"></script>
+
+<script src="js/state.js"></script>
+<script src="js/render.js"></script>
+<script src="js/export.js"></script>
+<script src="js/llm.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
