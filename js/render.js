@@ -65,17 +65,17 @@ const BLRender = (() => {
       col.appendChild(ptsLine);
 
       const tierCount = tree.tierThresholds.length;
-      for (let tier = 0; tier < tierCount; tier++) {
+      for (let tier = 1; tier <= tierCount; tier++) {
         const tierBlock = document.createElement("div");
         tierBlock.className = "tier-block";
 
         const unlocked = BLState.isTierUnlocked(tree, tier);
-        if (tier > 0) {
+        if (tier > 1) {
           const lockNote = document.createElement("div");
           lockNote.className = "tier-lock-note";
           lockNote.textContent = unlocked
             ? "Unlocked"
-            : `Requires ${tree.tierThresholds[tier]} points in tree`;
+            : `Requires ${tree.tierThresholds[tier - 1]} points in tree`;
           tierBlock.appendChild(lockNote);
         }
 
@@ -181,7 +181,7 @@ const BLRender = (() => {
 
     const meta = document.createElement("div");
     meta.className = "modal-meta";
-    meta.textContent = `${tree.name} — Tier ${skill.tier + 1} — Max ${skill.maxPoints} points`;
+    meta.textContent = `${tree.name} — Tier ${skill.tier} — Max ${skill.maxPoints} points`;
     modal.appendChild(meta);
 
     if (skill.description) {
