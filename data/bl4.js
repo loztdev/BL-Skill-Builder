@@ -26,7 +26,7 @@ window.BL_DATA.bl4 = {
         {
           id: "vex_phase_phamiliar",
           name: "Here Comes Trouble (Phase Phamiliar)",
-          tierThresholds: [0, 1, 4, 7, 10, 13],
+          tierThresholds: [0, 5, 10, 15, 20, 25],
           skills: [
             {
               id: "vex_phase_phamiliar_action",
@@ -177,7 +177,7 @@ window.BL_DATA.bl4 = {
         {
           id: "vex_dead_ringer",
           name: "The Fourth Seal (Dead Ringer)",
-          tierThresholds: [0, 1, 4, 7, 10, 13],
+          tierThresholds: [0, 5, 10, 15, 20, 25],
           skills: [
             {
               id: "vex_dead_ringer_action",
@@ -350,7 +350,7 @@ window.BL_DATA.bl4 = {
         {
           id: "vex_vexcalation",
           name: "Vexcalation (Incarnate)",
-          tierThresholds: [0, 1, 4, 7, 10, 13],
+          tierThresholds: [0, 5, 10, 15, 20, 25],
           skills: [
             {
               id: "vex_incarnate_action",
@@ -562,7 +562,7 @@ window.BL_DATA.bl4 = {
         {
           id: "amon_cybernetics",
           name: "Cybernetics (Crucible)",
-          tierThresholds: [0, 1, 4, 7, 10, 13],
+          tierThresholds: [0, 5, 10, 15, 20, 25],
           skills: [
             {
               id: "amon_crucible_action",
@@ -733,7 +733,7 @@ window.BL_DATA.bl4 = {
         {
           id: "amon_calamity",
           name: "Calamity (Onslaughter)",
-          tierThresholds: [0, 1, 4, 7, 10, 13],
+          tierThresholds: [0, 5, 10, 15, 20, 25],
           skills: [
             {
               id: "amon_onslaughter_action",
@@ -896,7 +896,7 @@ window.BL_DATA.bl4 = {
         {
           id: "amon_vengeance",
           name: "Vengeance (Scourge)",
-          tierThresholds: [0, 1, 4, 7, 10, 13],
+          tierThresholds: [0, 5, 10, 15, 20, 25],
           skills: [
             {
               id: "amon_scourge_action",
@@ -1052,7 +1052,7 @@ window.BL_DATA.bl4 = {
         {
           id: "harlowe_creative_bursts",
           name: "Creative Bursts (Chroma Accelerator)",
-          tierThresholds: [0, 1, 4, 7, 10, 13],
+          tierThresholds: [0, 5, 10, 15, 20, 25],
           skills: [
             {
               id: "harlowe_chroma_accelerator_action",
@@ -1175,7 +1175,7 @@ window.BL_DATA.bl4 = {
         {
           id: "harlowe_seize_the_day",
           name: "Seize the Day (Zero-Point)",
-          tierThresholds: [0, 1, 4, 7, 10, 13],
+          tierThresholds: [0, 5, 10, 15, 20, 25],
           skills: [
             {
               id: "harlowe_zero_point_action",
@@ -1286,7 +1286,7 @@ window.BL_DATA.bl4 = {
         {
           id: "harlowe_cosmic_brilliance",
           name: "Cosmic Brilliance (Flux Generator)",
-          tierThresholds: [0, 1, 4, 7, 10, 13],
+          tierThresholds: [0, 5, 10, 15, 20, 25],
           skills: [
             {
               id: "harlowe_flux_generator_action",
@@ -1430,7 +1430,7 @@ window.BL_DATA.bl4 = {
         {
           id: "rafa_remote_agent",
           name: "Remote Agent (Peacebreaker Cannons)",
-          tierThresholds: [0, 1, 4, 7, 10, 13],
+          tierThresholds: [0, 5, 10, 15, 20, 25],
           skills: [
             {
               id: "rafa_peacebreaker_action",
@@ -1593,7 +1593,7 @@ window.BL_DATA.bl4 = {
         {
           id: "rafa_the_thrill",
           name: "The Thrill (APOPHIS Lance)",
-          tierThresholds: [0, 1, 4, 7, 10, 13],
+          tierThresholds: [0, 5, 10, 15, 20, 25],
           skills: [
             {
               id: "rafa_apophis_lance_action",
@@ -1764,7 +1764,7 @@ window.BL_DATA.bl4 = {
         {
           id: "rafa_expedite",
           name: "Expedite (Arc-Knives)",
-          tierThresholds: [0, 1, 4, 7, 10, 13],
+          tierThresholds: [0, 5, 10, 15, 20, 25],
           skills: [
             {
               id: "rafa_arc_knives_action",
@@ -1892,6 +1892,516 @@ window.BL_DATA.bl4 = {
               description: "Capstone: Melee hits fire Acid gliders; killing restores Duration.",
               ranks: [
                 "Capstone: Fires an Acid STRM Glider at an enemy in Rafa's view whenever he performs a melee attack while Arc-Knives are active. The glider deals Corrosive splash damage scaling with how many enemies are currently marked. Killing an enemy while Arc-Knives are active restores Action Skill Duration. Activating Blade Fury fires a volley of gliders in front of Rafa, ending Arc-Knives."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+
+    /* ===================== C4SH — THE HUSTLER ===================== */
+    {
+      id: "c4sh",
+      name: "C4SH",
+      title: "The Hustler",
+      trees: [
+        {
+          id: "c4sh_high_roller",
+          name: "High Roller (Jackpot)",
+          tierThresholds: [0, 5, 10, 15, 20, 25],
+          skills: [
+            {
+              id: "c4sh_jackpot_action",
+              name: "Jackpot",
+              tier: 0,
+              col: 1,
+              maxPoints: 1,
+              type: "action",
+              description: "Action Skill: Deploy a luck-amplifying holographic casino machine.",
+              ranks: [
+                "C4SH deploys a holographic Jackpot machine that pulses fortune energy outward, causing nearby enemies to drop bonus loot on death and granting C4SH a Lucky streak. During the Lucky streak, C4SH's attacks have a chance to trigger bonus hits that deal Kinetic Damage. Kills refresh the Lucky streak duration."
+              ]
+            },
+            {
+              id: "c4sh_ante_up",
+              name: "Ante Up",
+              tier: 1,
+              col: 0,
+              maxPoints: 5,
+              type: "passive",
+              description: "Gun Damage increases with consecutive hits on the same enemy.",
+              ranks: [
+                "Rank 1: Each consecutive hit on the same enemy slightly increases C4SH's Gun Damage to that target, stacking up to 3 times.",
+                "Rank 2: Stack cap and per-stack bonus increased.",
+                "Rank 3: Stack cap and per-stack bonus increased further.",
+                "Rank 4: Stack cap and per-stack bonus increased further still.",
+                "Rank 5: Stack cap and per-stack bonus reach their maximum values."
+              ]
+            },
+            {
+              id: "c4sh_loaded_dice",
+              name: "Loaded Dice",
+              tier: 1,
+              col: 1,
+              maxPoints: 5,
+              type: "passive",
+              description: "Increases critical hit chance at the cost of some max health.",
+              ranks: [
+                "Rank 1: C4SH gains a small increase to Critical Hit Chance but has slightly reduced Maximum Health.",
+                "Rank 2: Critical Hit Chance further increased; health penalty unchanged.",
+                "Rank 3: Critical Hit Chance increased further.",
+                "Rank 4: Critical Hit Chance increased further still.",
+                "Rank 5: Critical Hit Chance reaches its maximum bonus."
+              ]
+            },
+            {
+              id: "c4sh_all_in",
+              name: "All In",
+              tier: 1,
+              col: 2,
+              maxPoints: 5,
+              type: "passive",
+              description: "Kill Skill: bonus damage after a kill scales with current Lucky streak.",
+              ranks: [
+                "Rank 1: Kill Skill. After killing an enemy, C4SH gains a brief damage bonus that scales with the number of stacks in the current Lucky streak.",
+                "Rank 2: Damage bonus increased.",
+                "Rank 3: Damage bonus increased further.",
+                "Rank 4: Damage bonus increased further still.",
+                "Rank 5: Damage bonus reaches its maximum value."
+              ]
+            },
+            {
+              id: "c4sh_double_down",
+              name: "Double Down",
+              tier: 2,
+              col: 0,
+              maxPoints: 1,
+              type: "augment",
+              description: "Augment: Jackpot fires twin fortune bolts instead of pulsing.",
+              ranks: [
+                "Augment: Jackpot fires twin fortune bolts that seek nearby enemies, dealing Kinetic Damage and applying a brief slow. Enemies hit by both bolts take bonus Damage."
+              ]
+            },
+            {
+              id: "c4sh_house_cut",
+              name: "House Cut",
+              tier: 2,
+              col: 2,
+              maxPoints: 1,
+              type: "augment",
+              description: "Augment: Lucky streak grants a portion of damage as healing.",
+              ranks: [
+                "Augment: While C4SH has an active Lucky streak, a portion of all Gun Damage dealt is returned as Health (Lifesteal). The lifesteal percentage scales with Lucky streak stacks."
+              ]
+            },
+            {
+              id: "c4sh_sure_bet",
+              name: "Sure Bet",
+              tier: 3,
+              col: 1,
+              maxPoints: 5,
+              type: "passive",
+              description: "Increases Jackpot duration and Lucky streak stack cap.",
+              ranks: [
+                "Rank 1: Jackpot's active duration is extended and C4SH's Lucky streak can stack one additional time.",
+                "Rank 2: Duration and stack cap increased further.",
+                "Rank 3: Duration and stack cap increased further still.",
+                "Rank 4: Duration and stack cap increased further still.",
+                "Rank 5: Duration and stack cap reach their maximum values."
+              ]
+            },
+            {
+              id: "c4sh_hot_streak",
+              name: "Hot Streak",
+              tier: 4,
+              col: 0,
+              maxPoints: 5,
+              type: "passive",
+              description: "Each Lucky streak stack also boosts fire rate.",
+              ranks: [
+                "Rank 1: Each stack of Lucky streak grants a small bonus to Fire Rate.",
+                "Rank 2: Fire Rate bonus per stack increased.",
+                "Rank 3: Fire Rate bonus per stack increased further.",
+                "Rank 4: Fire Rate bonus per stack increased further still.",
+                "Rank 5: Fire Rate bonus per stack reaches its maximum value."
+              ]
+            },
+            {
+              id: "c4sh_wildcards",
+              name: "Wildcards",
+              tier: 4,
+              col: 2,
+              maxPoints: 5,
+              type: "passive",
+              description: "Bonus hits from Lucky streak can chain to nearby enemies.",
+              ranks: [
+                "Rank 1: Lucky streak bonus hits have a small chance to chain to a nearby enemy, dealing reduced Damage.",
+                "Rank 2: Chain chance and chain damage increased.",
+                "Rank 3: Chain chance and chain damage increased further.",
+                "Rank 4: Chain chance and chain damage increased further still.",
+                "Rank 5: Chain chance and chain damage reach their maximum values."
+              ]
+            },
+            {
+              id: "c4sh_press_your_luck",
+              name: "Press Your Luck",
+              tier: 5,
+              col: 1,
+              maxPoints: 5,
+              type: "passive",
+              description: "Lucky streak stacks persist on kill, refreshing their duration.",
+              ranks: [
+                "Rank 1: Killing an enemy resets the decay timer on all current Lucky streak stacks instead of consuming them.",
+                "Rank 2: Kill also grants a brief burst of bonus Damage.",
+                "Rank 3: Bonus Damage burst increased.",
+                "Rank 4: Bonus Damage burst increased further.",
+                "Rank 5: Bonus Damage burst reaches its maximum value."
+              ]
+            },
+            {
+              id: "c4sh_jackpot_capstone",
+              name: "Grand Prize",
+              tier: 6,
+              col: 1,
+              maxPoints: 1,
+              type: "capstone",
+              description: "Capstone: Maximum Lucky streak stacks cause Jackpot to fire automatically.",
+              ranks: [
+                "Capstone: When C4SH reaches maximum Lucky streak stacks, Jackpot activates automatically with no cooldown cost. While at maximum stacks, all bonus hits deal double Damage and Jackpot's pulse radius is doubled."
+              ]
+            }
+          ]
+        },
+        {
+          id: "c4sh_fast_talk",
+          name: "Fast Talk (Con Artist)",
+          tierThresholds: [0, 5, 10, 15, 20, 25],
+          skills: [
+            {
+              id: "c4sh_con_artist_action",
+              name: "Con Artist",
+              tier: 0,
+              col: 1,
+              maxPoints: 1,
+              type: "action",
+              description: "Action Skill: Disguise as an enemy faction for a duration.",
+              ranks: [
+                "C4SH disguises herself as a member of the nearest enemy faction, causing enemies to ignore her for a Duration or until she deals damage. While disguised, C4SH deals increased Damage with the first shot after breaking disguise. Melee attacks can be used during disguise without breaking it."
+              ]
+            },
+            {
+              id: "c4sh_silver_tongue",
+              name: "Silver Tongue",
+              tier: 1,
+              col: 0,
+              maxPoints: 5,
+              type: "passive",
+              description: "Increases Action Skill Duration and Cooldown Rate.",
+              ranks: [
+                "Rank 1: Con Artist's disguise duration is extended and its Cooldown Rate is slightly increased.",
+                "Rank 2: Duration and Cooldown Rate bonuses increased.",
+                "Rank 3: Duration and Cooldown Rate bonuses increased further.",
+                "Rank 4: Duration and Cooldown Rate bonuses increased further still.",
+                "Rank 5: Duration and Cooldown Rate bonuses reach their maximum values."
+              ]
+            },
+            {
+              id: "c4sh_sleight_of_hand",
+              name: "Sleight of Hand",
+              tier: 1,
+              col: 1,
+              maxPoints: 5,
+              type: "passive",
+              description: "Increases Swap Speed and grants bonus damage after a weapon swap.",
+              ranks: [
+                "Rank 1: C4SH swaps weapons faster and gains a brief damage bonus after swapping.",
+                "Rank 2: Swap Speed and damage bonus increased.",
+                "Rank 3: Swap Speed and damage bonus increased further.",
+                "Rank 4: Swap Speed and damage bonus increased further still.",
+                "Rank 5: Swap Speed and damage bonus reach their maximum values."
+              ]
+            },
+            {
+              id: "c4sh_escape_artist",
+              name: "Escape Artist",
+              tier: 1,
+              col: 2,
+              maxPoints: 5,
+              type: "passive",
+              description: "Taking damage has a chance to briefly grant invisibility.",
+              ranks: [
+                "Rank 1: When C4SH takes damage, she has a small chance to briefly turn invisible, making enemies lose track of her.",
+                "Rank 2: Invisibility chance and duration increased.",
+                "Rank 3: Invisibility chance and duration increased further.",
+                "Rank 4: Invisibility chance and duration increased further still.",
+                "Rank 5: Invisibility chance and duration reach their maximum values."
+              ]
+            },
+            {
+              id: "c4sh_switcheroo",
+              name: "Switcheroo",
+              tier: 2,
+              col: 0,
+              maxPoints: 1,
+              type: "augment",
+              description: "Augment: Breaking disguise creates a decoy that draws fire.",
+              ranks: [
+                "Augment: When Con Artist's disguise breaks (by taking damage or by attacking), C4SH leaves behind a holographic decoy that briefly taunts nearby enemies, drawing their fire for a short Duration."
+              ]
+            },
+            {
+              id: "c4sh_inside_job",
+              name: "Inside Job",
+              tier: 2,
+              col: 2,
+              maxPoints: 1,
+              type: "augment",
+              description: "Augment: While disguised, Melee attacks deal bonus damage and refresh disguise.",
+              ranks: [
+                "Augment: C4SH's Melee attacks deal significantly increased Damage while Con Artist is active. A successful Melee kill during disguise refreshes the disguise Duration without triggering a cooldown."
+              ]
+            },
+            {
+              id: "c4sh_grifter",
+              name: "Grifter",
+              tier: 3,
+              col: 1,
+              maxPoints: 5,
+              type: "passive",
+              description: "Kills grant a stacking bonus to movement speed and damage.",
+              ranks: [
+                "Rank 1: Killing an enemy grants a small stack of Grift, increasing Movement Speed and Gun Damage. Stacks decay after a short duration without a kill.",
+                "Rank 2: Per-stack bonus and maximum stacks increased.",
+                "Rank 3: Per-stack bonus and maximum stacks increased further.",
+                "Rank 4: Per-stack bonus and maximum stacks increased further still.",
+                "Rank 5: Per-stack bonus and maximum stacks reach their maximum values."
+              ]
+            },
+            {
+              id: "c4sh_marked_cards",
+              name: "Marked Cards",
+              tier: 4,
+              col: 0,
+              maxPoints: 5,
+              type: "passive",
+              description: "First shot after a reload deals bonus Kinetic damage.",
+              ranks: [
+                "Rank 1: The first bullet fired after a reload deals bonus Kinetic Damage.",
+                "Rank 2: Bonus damage increased.",
+                "Rank 3: Bonus damage increased further.",
+                "Rank 4: Bonus damage increased further still.",
+                "Rank 5: Bonus damage reaches its maximum value."
+              ]
+            },
+            {
+              id: "c4sh_smoke_and_mirrors",
+              name: "Smoke and Mirrors",
+              tier: 4,
+              col: 2,
+              maxPoints: 5,
+              type: "passive",
+              description: "Reduces damage taken while moving at full speed.",
+              ranks: [
+                "Rank 1: C4SH takes slightly reduced damage while moving at or near full movement speed.",
+                "Rank 2: Damage reduction increased.",
+                "Rank 3: Damage reduction increased further.",
+                "Rank 4: Damage reduction increased further still.",
+                "Rank 5: Damage reduction reaches its maximum value."
+              ]
+            },
+            {
+              id: "c4sh_ace_up_the_sleeve",
+              name: "Ace Up the Sleeve",
+              tier: 5,
+              col: 1,
+              maxPoints: 5,
+              type: "passive",
+              description: "Final shot in a magazine has a chance to not consume ammo.",
+              ranks: [
+                "Rank 1: The last shot in C4SH's magazine has a chance to not consume ammo and deal bonus Damage.",
+                "Rank 2: Chance and bonus damage increased.",
+                "Rank 3: Chance and bonus damage increased further.",
+                "Rank 4: Chance and bonus damage increased further still.",
+                "Rank 5: Chance and bonus damage reach their maximum values."
+              ]
+            },
+            {
+              id: "c4sh_mastermind",
+              name: "Mastermind",
+              tier: 6,
+              col: 1,
+              maxPoints: 1,
+              type: "capstone",
+              description: "Capstone: Con Artist automatically re-activates after breaking disguise.",
+              ranks: [
+                "Capstone: After Con Artist's disguise breaks, C4SH automatically re-activates it after a brief 3-second delay with no Cooldown cost. This free re-activation can only occur once per original activation of Con Artist. While re-activating, C4SH deals increased Damage."
+              ]
+            }
+          ]
+        },
+        {
+          id: "c4sh_black_market",
+          name: "Black Market (Contraband)",
+          tierThresholds: [0, 5, 10, 15, 20, 25],
+          skills: [
+            {
+              id: "c4sh_contraband_action",
+              name: "Contraband",
+              tier: 0,
+              col: 1,
+              maxPoints: 1,
+              type: "action",
+              description: "Action Skill: Throw an illegal device that creates a hazard zone.",
+              ranks: [
+                "C4SH throws a Contraband device that detonates on impact, creating a persistent hazard zone. Enemies entering the zone are slowed and take Corrosive Damage over time. Allies in the zone gain increased Loot Drop chance from enemies they kill. The device can be detonated early by pressing Action Skill again."
+              ]
+            },
+            {
+              id: "c4sh_corrosive_contacts",
+              name: "Corrosive Contacts",
+              tier: 1,
+              col: 0,
+              maxPoints: 5,
+              type: "passive",
+              description: "Increases Corrosive Damage and Status Effect Damage.",
+              ranks: [
+                "Rank 1: C4SH gains a small increase to Corrosive Damage and Corrosive Status Effect Damage.",
+                "Rank 2: Bonuses increased.",
+                "Rank 3: Bonuses increased further.",
+                "Rank 4: Bonuses increased further still.",
+                "Rank 5: Bonuses reach their maximum values."
+              ]
+            },
+            {
+              id: "c4sh_fence",
+              name: "Fence",
+              tier: 1,
+              col: 1,
+              maxPoints: 5,
+              type: "passive",
+              description: "Increases money and item rarity dropped by enemies.",
+              ranks: [
+                "Rank 1: Enemies drop slightly more money and have a small increased chance to drop higher-rarity items.",
+                "Rank 2: Money and rarity bonuses increased.",
+                "Rank 3: Money and rarity bonuses increased further.",
+                "Rank 4: Money and rarity bonuses increased further still.",
+                "Rank 5: Money and rarity bonuses reach their maximum values."
+              ]
+            },
+            {
+              id: "c4sh_kickback",
+              name: "Kickback",
+              tier: 1,
+              col: 2,
+              maxPoints: 5,
+              type: "passive",
+              description: "Picking up money grants a brief gun damage bonus.",
+              ranks: [
+                "Rank 1: Picking up a money drop grants a small Gun Damage bonus for a short Duration.",
+                "Rank 2: Gun Damage bonus increased.",
+                "Rank 3: Gun Damage bonus increased further.",
+                "Rank 4: Gun Damage bonus increased further still.",
+                "Rank 5: Gun Damage bonus reaches its maximum value."
+              ]
+            },
+            {
+              id: "c4sh_proximity_mine",
+              name: "Proximity Mine",
+              tier: 2,
+              col: 0,
+              maxPoints: 1,
+              type: "augment",
+              description: "Augment: Contraband device becomes a proximity mine that explodes on enemies.",
+              ranks: [
+                "Augment: The Contraband device is replaced with a proximity mine that arms after 1 second and detonates when an enemy steps near it, dealing high Explosive Damage. Up to 3 mines can be active at once."
+              ]
+            },
+            {
+              id: "c4sh_black_market_deal",
+              name: "Black Market Deal",
+              tier: 2,
+              col: 2,
+              maxPoints: 1,
+              type: "augment",
+              description: "Augment: Contraband zone also debuffs enemies with reduced damage output.",
+              ranks: [
+                "Augment: Enemies inside the Contraband hazard zone deal reduced Damage to C4SH and her allies for as long as they remain in the zone."
+              ]
+            },
+            {
+              id: "c4sh_under_the_table",
+              name: "Under the Table",
+              tier: 3,
+              col: 1,
+              maxPoints: 5,
+              type: "passive",
+              description: "Corrosive Status Effects applied by C4SH reduce enemy armor.",
+              ranks: [
+                "Rank 1: Enemies affected by C4SH's Corrosive Status Effects have slightly reduced Armor, causing them to take more damage.",
+                "Rank 2: Armor reduction increased.",
+                "Rank 3: Armor reduction increased further.",
+                "Rank 4: Armor reduction increased further still.",
+                "Rank 5: Armor reduction reaches its maximum value."
+              ]
+            },
+            {
+              id: "c4sh_laundering",
+              name: "Laundering",
+              tier: 4,
+              col: 0,
+              maxPoints: 5,
+              type: "passive",
+              description: "Money collected converts to a temporary max health bonus.",
+              ranks: [
+                "Rank 1: A portion of money collected is converted into a temporary Maximum Health bonus that decays slowly over time.",
+                "Rank 2: Conversion rate and health bonus increased.",
+                "Rank 3: Conversion rate and health bonus increased further.",
+                "Rank 4: Conversion rate and health bonus increased further still.",
+                "Rank 5: Conversion rate and health bonus reach their maximum values."
+              ]
+            },
+            {
+              id: "c4sh_dirty_money",
+              name: "Dirty Money",
+              tier: 4,
+              col: 2,
+              maxPoints: 5,
+              type: "passive",
+              description: "Spending money at vending machines grants a stacking damage buff.",
+              ranks: [
+                "Rank 1: Spending money at vending machines grants a small stack of Dirty Money, increasing Gun Damage. Stacks persist until the next area transition.",
+                "Rank 2: Per-stack bonus and maximum stacks increased.",
+                "Rank 3: Per-stack bonus and maximum stacks increased further.",
+                "Rank 4: Per-stack bonus and maximum stacks increased further still.",
+                "Rank 5: Per-stack bonus and maximum stacks reach their maximum values."
+              ]
+            },
+            {
+              id: "c4sh_contraband_cache",
+              name: "Contraband Cache",
+              tier: 5,
+              col: 1,
+              maxPoints: 5,
+              type: "passive",
+              description: "Reduces Contraband cooldown; killing enemies inside the zone drops bonus ammo.",
+              ranks: [
+                "Rank 1: Contraband's Cooldown is slightly reduced and enemies killed inside the hazard zone drop one bonus ammo pack.",
+                "Rank 2: Cooldown reduction increased; ammo drop value increased.",
+                "Rank 3: Cooldown reduction increased further.",
+                "Rank 4: Cooldown reduction increased further still.",
+                "Rank 5: Cooldown reduction and ammo drop value reach their maximum."
+              ]
+            },
+            {
+              id: "c4sh_crime_pays",
+              name: "Crime Pays",
+              tier: 6,
+              col: 1,
+              maxPoints: 1,
+              type: "capstone",
+              description: "Capstone: Killing enemies grants stacking bonus damage that converts to money on death.",
+              ranks: [
+                "Capstone: Each enemy C4SH kills grants a stack of Crime Pays, increasing Gun Damage and Corrosive Damage. Stacks are lost when C4SH goes into Fight for Your Life — but each stack is converted into a money drop, giving her a better chance of getting a Second Wind from a lucky enemy."
               ]
             }
           ]

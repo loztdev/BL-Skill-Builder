@@ -11,7 +11,7 @@ window.BL_DATA.bl3 = {
         {
           id: "amara_brawl",
           name: "Brawl",
-          tierThresholds: [0, 1, 5, 9, 14, 19],
+          tierThresholds: [0, 5, 10, 15, 20, 25],
           skills: [
             { id: "amara_mindfulness", name: "Mindfulness", tier: 1, col: 0, maxPoints: 5, type: "passive",
               description: "Gain a stack of Mindfulness when damaged. Each stack increases movement speed and depletes over time.",
@@ -57,7 +57,7 @@ window.BL_DATA.bl3 = {
         {
           id: "amara_mystical_assault",
           name: "Mystical Assault",
-          tierThresholds: [0, 1, 5, 9, 14, 19],
+          tierThresholds: [0, 5, 10, 15, 20, 25],
           skills: [
             { id: "amara_rush", name: "Rush", tier: 1, col: 0, maxPoints: 5, type: "passive",
               description: "Increases damage when Amara has Rush stacks. Stacks are consumed by certain augments.",
@@ -100,7 +100,7 @@ window.BL_DATA.bl3 = {
         {
           id: "amara_fist_of_the_elements",
           name: "Fist of the Elements",
-          tierThresholds: [0, 1, 5, 9, 14, 19],
+          tierThresholds: [0, 5, 10, 15, 20, 25],
           skills: [
             { id: "amara_infusion", name: "Infusion", tier: 1, col: 0, maxPoints: 5, type: "passive",
               description: "A portion of Amara's gun damage is converted to her Action Skill element.",
@@ -147,7 +147,7 @@ window.BL_DATA.bl3 = {
         {
           id: "zane_under_cover",
           name: "Under Cover",
-          tierThresholds: [0, 1, 5, 9, 14, 19],
+          tierThresholds: [0, 5, 10, 15, 20, 25],
           skills: [
             { id: "zane_adrenaline", name: "Adrenaline", tier: 1, col: 0, maxPoints: 5, type: "passive",
               description: "Increases Action Skill cooldown rate based on shield capacity.",
@@ -190,7 +190,7 @@ window.BL_DATA.bl3 = {
         {
           id: "zane_hitman",
           name: "Hitman",
-          tierThresholds: [0, 1, 5, 9, 14, 19],
+          tierThresholds: [0, 5, 10, 15, 20, 25],
           skills: [
             { id: "zane_cool_hand", name: "Cool Hand", tier: 1, col: 0, maxPoints: 5, type: "passive",
               description: "Increases reload speed.",
@@ -233,7 +233,7 @@ window.BL_DATA.bl3 = {
         {
           id: "zane_doubled_agent",
           name: "Doubled Agent",
-          tierThresholds: [0, 1, 5, 9, 14, 19],
+          tierThresholds: [0, 5, 10, 15, 20, 25],
           skills: [
             { id: "zane_synchronicity", name: "Synchronicity", tier: 1, col: 0, maxPoints: 5, type: "passive",
               description: "Zane gains increased gun damage for each active Action Skill.",
@@ -283,7 +283,7 @@ window.BL_DATA.bl3 = {
         {
           id: "moze_bottomless_mags",
           name: "Bottomless Mags",
-          tierThresholds: [0, 1, 5, 9, 14, 19],
+          tierThresholds: [0, 5, 10, 15, 20, 25],
           skills: [
             { id: "moze_dakka_bear", name: "Dakka Bear", tier: 1, col: 0, maxPoints: 1, type: "augment",
               description: "Iron Bear Augment: Adds a turret seat to Iron Bear, allowing a passenger or Moze to operate it.",
@@ -323,7 +323,7 @@ window.BL_DATA.bl3 = {
         {
           id: "moze_shield_of_retribution",
           name: "Shield of Retribution",
-          tierThresholds: [0, 1, 5, 9, 14, 19],
+          tierThresholds: [0, 5, 10, 15, 20, 25],
           skills: [
             { id: "moze_thin_red_line", name: "Thin Red Line", tier: 1, col: 0, maxPoints: 3, type: "passive",
               description: "Moze sacrifices maximum health to gain bonus shield capacity.",
@@ -366,7 +366,7 @@ window.BL_DATA.bl3 = {
         {
           id: "moze_demolition_woman",
           name: "Demolition Woman",
-          tierThresholds: [0, 1, 5, 9, 14, 19],
+          tierThresholds: [0, 5, 10, 15, 20, 25],
           skills: [
             { id: "moze_pull_the_holy_pin", name: "Pull the Holy Pin", tier: 1, col: 0, maxPoints: 5, type: "passive",
               description: "Grenades have a chance to trigger a second explosion on impact.",
@@ -416,7 +416,7 @@ window.BL_DATA.bl3 = {
         {
           id: "fl4k_hunter",
           name: "Hunter",
-          tierThresholds: [0, 1, 5, 9, 14, 19],
+          tierThresholds: [0, 5, 10, 15, 20, 25],
           skills: [
             { id: "fl4k_ferocity", name: "Ferocity", tier: 1, col: 0, maxPoints: 5, type: "passive",
               description: "Increases the pet's damage.",
@@ -456,7 +456,7 @@ window.BL_DATA.bl3 = {
         {
           id: "fl4k_stalker",
           name: "Stalker",
-          tierThresholds: [0, 1, 5, 9, 14, 19],
+          tierThresholds: [0, 5, 10, 15, 20, 25],
           skills: [
             { id: "fl4k_frenzy", name: "Frenzy", tier: 1, col: 0, maxPoints: 5, type: "passive",
               description: "When FL4K's pet hits an enemy, FL4K gains stacking gun damage.",
@@ -496,7 +496,7 @@ window.BL_DATA.bl3 = {
         {
           id: "fl4k_master",
           name: "Master",
-          tierThresholds: [0, 1, 5, 9, 14, 19],
+          tierThresholds: [0, 5, 10, 15, 20, 25],
           skills: [
             { id: "fl4k_barbaric_yawp", name: "Barbaric Yawp", tier: 1, col: 0, maxPoints: 5, type: "passive",
               description: "Increases the effect of all of FL4K's pet bonuses.",

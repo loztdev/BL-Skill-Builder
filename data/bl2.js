@@ -17,7 +17,7 @@ window.BL_DATA.bl2 = {
         {
           id: "axton_guerrilla",
           name: "Guerrilla",
-          tierThresholds: [0, 1, 5, 9, 14, 19],
+          tierThresholds: [0, 5, 10, 15, 20, 25],
           skills: [
             { id: "axton_sabre_turret", name: "Sabre Turret", tier: 0, col: 1, maxPoints: 1, type: "action",
               description: "Deploy a Sabre Turret that automatically attacks nearby enemies.",
@@ -57,7 +57,7 @@ window.BL_DATA.bl2 = {
         {
           id: "axton_gunpowder",
           name: "Gunpowder",
-          tierThresholds: [0, 1, 5, 9, 14, 19],
+          tierThresholds: [0, 5, 10, 15, 20, 25],
           skills: [
             { id: "axton_sabre_turret_gp", name: "Sabre Turret", tier: 0, col: 1, maxPoints: 1, type: "action",
               description: "Deploy a Sabre Turret that automatically attacks nearby enemies.",
@@ -94,7 +94,7 @@ window.BL_DATA.bl2 = {
         {
           id: "axton_survival",
           name: "Survival",
-          tierThresholds: [0, 1, 5, 9, 14, 19],
+          tierThresholds: [0, 5, 10, 15, 20, 25],
           skills: [
             { id: "axton_sabre_turret_sv", name: "Sabre Turret", tier: 0, col: 1, maxPoints: 1, type: "action",
               description: "Deploy a Sabre Turret that automatically attacks nearby enemies.",
@@ -137,7 +137,7 @@ window.BL_DATA.bl2 = {
         {
           id: "maya_motion",
           name: "Motion",
-          tierThresholds: [0, 1, 5, 9, 14, 19],
+          tierThresholds: [0, 5, 10, 15, 20, 25],
           skills: [
             { id: "maya_phaselock_mo", name: "Phaselock", tier: 0, col: 1, maxPoints: 1, type: "action",
               description: "Lock an enemy in a bubble of Phase energy, suspending them in mid-air.",
@@ -171,7 +171,7 @@ window.BL_DATA.bl2 = {
         {
           id: "maya_harmony",
           name: "Harmony",
-          tierThresholds: [0, 1, 5, 9, 14, 19],
+          tierThresholds: [0, 5, 10, 15, 20, 25],
           skills: [
             { id: "maya_phaselock_ha", name: "Phaselock", tier: 0, col: 1, maxPoints: 1, type: "action",
               description: "Lock an enemy in a bubble of Phase energy, suspending them in mid-air.",
@@ -205,7 +205,7 @@ window.BL_DATA.bl2 = {
         {
           id: "maya_cataclysm",
           name: "Cataclysm",
-          tierThresholds: [0, 1, 5, 9, 14, 19],
+          tierThresholds: [0, 5, 10, 15, 20, 25],
           skills: [
             { id: "maya_phaselock_ca", name: "Phaselock", tier: 0, col: 1, maxPoints: 1, type: "action",
               description: "Lock an enemy in a bubble of Phase energy, suspending them in mid-air.",
@@ -248,7 +248,7 @@ window.BL_DATA.bl2 = {
         {
           id: "salvador_brawn",
           name: "Brawn",
-          tierThresholds: [0, 1, 5, 9, 14, 19],
+          tierThresholds: [0, 5, 10, 15, 20, 25],
           skills: [
             { id: "salvador_gunzerk_br", name: "Gunzerk", tier: 0, col: 1, maxPoints: 1, type: "action",
               description: "Dual-wield any two weapons simultaneously for a short time.",
@@ -282,7 +282,7 @@ window.BL_DATA.bl2 = {
         {
           id: "salvador_gun_lust",
           name: "Gun Lust",
-          tierThresholds: [0, 1, 5, 9, 14, 19],
+          tierThresholds: [0, 5, 10, 15, 20, 25],
           skills: [
             { id: "salvador_gunzerk_gl", name: "Gunzerk", tier: 0, col: 1, maxPoints: 1, type: "action",
               description: "Dual-wield any two weapons simultaneously for a short time.",
@@ -316,7 +316,7 @@ window.BL_DATA.bl2 = {
         {
           id: "salvador_rampage",
           name: "Rampage",
-          tierThresholds: [0, 1, 5, 9, 14, 19],
+          tierThresholds: [0, 5, 10, 15, 20, 25],
           skills: [
             { id: "salvador_gunzerk_ra", name: "Gunzerk", tier: 0, col: 1, maxPoints: 1, type: "action",
               description: "Dual-wield any two weapons simultaneously for a short time.",
@@ -359,7 +359,7 @@ window.BL_DATA.bl2 = {
         {
           id: "zer0_bloodshed",
           name: "Bloodshed",
-          tierThresholds: [0, 1, 5, 9, 14, 19],
+          tierThresholds: [0, 5, 10, 15, 20, 25],
           skills: [
             { id: "zer0_deception_bl", name: "Deception", tier: 0, col: 1, maxPoints: 1, type: "action",
               description: "Deploy a holographic decoy and briefly turn invisible.",
@@ -393,7 +393,7 @@ window.BL_DATA.bl2 = {
         {
           id: "zer0_cunning",
           name: "Cunning",
-          tierThresholds: [0, 1, 5, 9, 14, 19],
+          tierThresholds: [0, 5, 10, 15, 20, 25],
           skills: [
             { id: "zer0_deception_cu", name: "Deception", tier: 0, col: 1, maxPoints: 1, type: "action",
               description: "Deploy a holographic decoy and briefly turn invisible.",
@@ -427,7 +427,7 @@ window.BL_DATA.bl2 = {
         {
           id: "zer0_sniping",
           name: "Sniping",
-          tierThresholds: [0, 1, 5, 9, 14, 19],
+          tierThresholds: [0, 5, 10, 15, 20, 25],
           skills: [
             { id: "zer0_deception_sn", name: "Deception", tier: 0, col: 1, maxPoints: 1, type: "action",
               description: "Deploy a holographic decoy and briefly turn invisible.",
@@ -470,7 +470,7 @@ window.BL_DATA.bl2 = {
         {
           id: "gaige_bff",
           name: "Best Friends Forever",
-          tierThresholds: [0, 1, 5, 9, 14, 19],
+          tierThresholds: [0, 5, 10, 15, 20, 25],
           skills: [
             { id: "gaige_deathtrap_bf", name: "Deathtrap", tier: 0, col: 1, maxPoints: 1, type: "action",
               description: "Summon DT, a giant robot companion that attacks nearby enemies.",
@@ -504,7 +504,7 @@ window.BL_DATA.bl2 = {
         {
           id: "gaige_lbt",
           name: "Little Big Trouble",
-          tierThresholds: [0, 1, 5, 9, 14, 19],
+          tierThresholds: [0, 5, 10, 15, 20, 25],
           skills: [
             { id: "gaige_deathtrap_lb", name: "Deathtrap", tier: 0, col: 1, maxPoints: 1, type: "action",
               description: "Summon DT, a giant robot companion that attacks nearby enemies.",
@@ -538,7 +538,7 @@ window.BL_DATA.bl2 = {
         {
           id: "gaige_ordered_chaos",
           name: "Ordered Chaos",
-          tierThresholds: [0, 1, 5, 9, 14, 19],
+          tierThresholds: [0, 5, 10, 15, 20, 25],
           skills: [
             { id: "gaige_deathtrap_oc", name: "Deathtrap", tier: 0, col: 1, maxPoints: 1, type: "action",
               description: "Summon DT, a giant robot companion that attacks nearby enemies.",
@@ -581,7 +581,7 @@ window.BL_DATA.bl2 = {
         {
           id: "krieg_bloodlust",
           name: "Bloodlust",
-          tierThresholds: [0, 1, 5, 9, 14, 19],
+          tierThresholds: [0, 5, 10, 15, 20, 25],
           skills: [
             { id: "krieg_buzz_axe_bl", name: "Buzz Axe Rampage", tier: 0, col: 1, maxPoints: 1, type: "action",
               description: "Equip a giant buzz axe and go berserk, melee attacking for massive damage.",
@@ -615,7 +615,7 @@ window.BL_DATA.bl2 = {
         {
           id: "krieg_mania",
           name: "Mania",
-          tierThresholds: [0, 1, 5, 9, 14, 19],
+          tierThresholds: [0, 5, 10, 15, 20, 25],
           skills: [
             { id: "krieg_buzz_axe_ma", name: "Buzz Axe Rampage", tier: 0, col: 1, maxPoints: 1, type: "action",
               description: "Equip a giant buzz axe and go berserk, melee attacking for massive damage.",
@@ -649,7 +649,7 @@ window.BL_DATA.bl2 = {
         {
           id: "krieg_hellborn",
           name: "Hellborn",
-          tierThresholds: [0, 1, 5, 9, 14, 19],
+          tierThresholds: [0, 5, 10, 15, 20, 25],
           skills: [
             { id: "krieg_buzz_axe_hb", name: "Buzz Axe Rampage", tier: 0, col: 1, maxPoints: 1, type: "action",
               description: "Equip a giant buzz axe and go berserk, melee attacking for massive damage.",

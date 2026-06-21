@@ -11,7 +11,7 @@ window.BL_DATA.bl1 = {
         {
           id: "roland_infantry",
           name: "Infantry",
-          tierThresholds: [0, 4, 8, 12],
+          tierThresholds: [0, 5, 10, 15],
           skills: [
             { id: "roland_impact", name: "Impact", tier: 1, col: 0, maxPoints: 5, type: "passive",
               description: "Increases the knockback and damage of all weapons.",
@@ -39,7 +39,7 @@ window.BL_DATA.bl1 = {
         {
           id: "roland_support",
           name: "Support",
-          tierThresholds: [0, 4, 8, 12],
+          tierThresholds: [0, 5, 10, 15],
           skills: [
             { id: "roland_aid_station", name: "Aid Station", tier: 1, col: 0, maxPoints: 5, type: "passive",
               description: "The Scorpio Turret heals nearby allies.",
@@ -67,7 +67,7 @@ window.BL_DATA.bl1 = {
         {
           id: "roland_medic",
           name: "Medic",
-          tierThresholds: [0, 4, 8, 12],
+          tierThresholds: [0, 5, 10, 15],
           skills: [
             { id: "roland_first_aid", name: "First Aid", tier: 1, col: 0, maxPoints: 5, type: "passive",
               description: "Increases health regeneration rate.",
@@ -102,7 +102,7 @@ window.BL_DATA.bl1 = {
         {
           id: "lilith_assassin",
           name: "Assassin",
-          tierThresholds: [0, 4, 8, 12],
+          tierThresholds: [0, 5, 10, 15],
           skills: [
             { id: "lilith_diva", name: "Diva", tier: 1, col: 0, maxPoints: 5, type: "passive",
               description: "Increases maximum shield capacity.",
@@ -130,7 +130,7 @@ window.BL_DATA.bl1 = {
         {
           id: "lilith_elemental",
           name: "Elemental",
-          tierThresholds: [0, 4, 8, 12],
+          tierThresholds: [0, 5, 10, 15],
           skills: [
             { id: "lilith_spark", name: "Spark", tier: 1, col: 0, maxPoints: 5, type: "passive",
               description: "Increases the chance to apply elemental effects with all weapons.",
@@ -158,7 +158,7 @@ window.BL_DATA.bl1 = {
         {
           id: "lilith_controller",
           name: "Controller",
-          tierThresholds: [0, 4, 8, 12],
+          tierThresholds: [0, 5, 10, 15],
           skills: [
             { id: "lilith_enforcer", name: "Enforcer", tier: 1, col: 0, maxPoints: 5, type: "passive",
               description: "Increases the damage bonus from Phasewalk's exit attack.",
@@ -193,7 +193,7 @@ window.BL_DATA.bl1 = {
         {
           id: "mordecai_sniper",
           name: "Sniper",
-          tierThresholds: [0, 4, 8, 12],
+          tierThresholds: [0, 5, 10, 15],
           skills: [
             { id: "mordecai_caliber", name: "Caliber", tier: 1, col: 0, maxPoints: 5, type: "passive",
               description: "Increases sniper rifle damage.",
@@ -221,7 +221,7 @@ window.BL_DATA.bl1 = {
         {
           id: "mordecai_rogue",
           name: "Rogue",
-          tierThresholds: [0, 4, 8, 12],
+          tierThresholds: [0, 5, 10, 15],
           skills: [
             { id: "mordecai_swipe", name: "Swipe", tier: 1, col: 0, maxPoints: 5, type: "passive",
               description: "Bloodwing has a chance to pick up items when she attacks an enemy.",
@@ -249,7 +249,7 @@ window.BL_DATA.bl1 = {
         {
           id: "mordecai_gunslinger",
           name: "Gunslinger",
-          tierThresholds: [0, 4, 8, 12],
+          tierThresholds: [0, 5, 10, 15],
           skills: [
             { id: "mordecai_hair_trigger", name: "Hair Trigger", tier: 1, col: 0, maxPoints: 5, type: "passive",
               description: "Increases fire rate for pistols and revolvers.",
@@ -284,7 +284,7 @@ window.BL_DATA.bl1 = {
         {
           id: "brick_brawler",
           name: "Brawler",
-          tierThresholds: [0, 4, 8, 12],
+          tierThresholds: [0, 5, 10, 15],
           skills: [
             { id: "brick_endowed", name: "Endowed", tier: 1, col: 0, maxPoints: 5, type: "passive",
               description: "Increases the duration of the Berserk action skill.",
@@ -312,7 +312,7 @@ window.BL_DATA.bl1 = {
         {
           id: "brick_tank",
           name: "Tank",
-          tierThresholds: [0, 4, 8, 12],
+          tierThresholds: [0, 5, 10, 15],
           skills: [
             { id: "brick_bash", name: "Bash", tier: 1, col: 0, maxPoints: 5, type: "passive",
               description: "Gives all attacks a chance to stun enemies briefly.",
@@ -340,7 +340,7 @@ window.BL_DATA.bl1 = {
         {
           id: "brick_blaster",
           name: "Blaster",
-          tierThresholds: [0, 4, 8, 12],
+          tierThresholds: [0, 5, 10, 15],
           skills: [
             { id: "brick_rapid_reload", name: "Rapid Reload", tier: 1, col: 0, maxPoints: 5, type: "passive",
               description: "Increases reload speed for all weapons.",
