@@ -136,6 +136,50 @@ window.BL_DATA.bl3 = {
               description: "Action Skill: Amara summons a giant fist that erupts from the ground and slams enemies repeatedly.",
               ranks: ["Summon giant spectral fist; damages and staggers enemies"] }
           ]
+        },
+        /* DLC — Designer's Cut */
+        {
+          id: "amara_phaseflare",
+          name: "Phaseflare",
+          tierThresholds: [0, 5, 10, 15, 20, 25],
+          skills: [
+            { id: "amara_pf_as", name: "Phaseflare", tier: 0, col: 1, maxPoints: 1, type: "action",
+              description: "Action Skill: Amara conjures a massive orb of elemental energy that homes toward enemies and deals continuous area damage. Melee the orb to send it flying for a burst nova.",
+              ranks: ["Summon Phaseflare orb; melee it to launch it for a bonus elemental nova"] },
+            { id: "amara_pf_elemental_affinity", name: "Elemental Affinity", tier: 1, col: 0, maxPoints: 5, type: "passive",
+              description: "Increases elemental damage and Action Skill damage.",
+              ranks: ["+6% elemental damage, +8% Action Skill damage", "+12%, +16%", "+18%, +24%", "+24%, +32%", "+30%, +40%"] },
+            { id: "amara_pf_focused_discipline", name: "Focused Discipline", tier: 1, col: 2, maxPoints: 5, type: "passive",
+              description: "Reduces Amara's Action Skill cooldown.",
+              ranks: ["-8% cooldown", "-16%", "-24%", "-32%", "-40%"] },
+            { id: "amara_pf_stillness_of_mind", name: "Stillness of Mind", tier: 2, col: 0, maxPoints: 1, type: "augment",
+              description: "Action Skill Augment: While Phaseflare is active, the orb periodically Phasegrasps a nearby enemy.",
+              ranks: ["Orb Phasegrasps a nearby enemy every 8 seconds"] },
+            { id: "amara_pf_deep_well", name: "Deep Well", tier: 2, col: 2, maxPoints: 5, type: "passive",
+              description: "Increases elemental status effect damage and application chance.",
+              ranks: ["+10% status damage, +5% status chance", "+20%, +10%", "+30%, +15%", "+40%, +20%", "+50%, +25%"] },
+            { id: "amara_pf_forceful_expression", name: "Forceful Expression", tier: 3, col: 0, maxPoints: 5, type: "passive",
+              description: "A portion of Amara's gun damage is converted to her Action Skill's element.",
+              ranks: ["10% conversion", "20%", "30%", "40%", "50%"] },
+            { id: "amara_pf_violent_tapestry", name: "Violent Tapestry", tier: 3, col: 2, maxPoints: 5, type: "passive",
+              description: "Each time Amara applies a status effect, she gains stacking gun damage briefly.",
+              ranks: ["+3% gun damage per stack, max 3", "+6%, max 3", "+6%, max 4", "+8%, max 4", "+10%, max 5"] },
+            { id: "amara_pf_body_and_mind", name: "Body and Mind", tier: 4, col: 0, maxPoints: 5, type: "passive",
+              description: "Increases melee damage and causes melee attacks to accelerate the Phaseflare orb.",
+              ranks: ["+15% melee damage", "+30%", "+45%", "+60%", "+75%"] },
+            { id: "amara_pf_combo_breaker", name: "Combo Breaker", tier: 4, col: 2, maxPoints: 1, type: "passive",
+              description: "Killing an enemy with a melee attack has a chance to immediately reset the melee cooldown.",
+              ranks: ["40% chance to reset melee cooldown on melee kill"] },
+            { id: "amara_pf_unweave", name: "Unweave the Rainbow", tier: 5, col: 0, maxPoints: 1, type: "augment",
+              description: "Action Skill Augment: Amara's melee attacks apply a random elemental status effect.",
+              ranks: ["Melee attacks apply a random elemental status effect"] },
+            { id: "amara_pf_empowered_scholar", name: "Empowered Scholar", tier: 5, col: 2, maxPoints: 5, type: "passive",
+              description: "For each unique elemental status effect active on at least one enemy, Amara gains bonus gun damage.",
+              ranks: ["+6% gun damage per unique element active on enemies", "+12%", "+18%", "+24%", "+30%"] },
+            { id: "amara_pf_still_the_one", name: "Still the One", tier: 6, col: 1, maxPoints: 1, type: "passive",
+              description: "When Phaseflare expires, the orb detonates in a massive elemental nova dealing huge damage to all nearby enemies.",
+              ranks: ["Phaseflare detonation nova deals 300% of total orb damage to all nearby enemies"] }
+          ]
         }
       ]
     },
@@ -272,6 +316,50 @@ window.BL_DATA.bl3 = {
               description: "When Zane summons his Digi-Clone, it consumes a grenade to boost all of its stats significantly.",
               ranks: ["Clone consumes grenade for enhanced stats on spawn"] }
           ]
+        },
+        /* DLC — Designer's Cut */
+        {
+          id: "zane_the_spy",
+          name: "The Spy",
+          tierThresholds: [0, 5, 10, 15, 20, 25],
+          skills: [
+            { id: "zane_spy_as", name: "MNTIS Shoulder Cannon", tier: 0, col: 1, maxPoints: 1, type: "action",
+              description: "Action Skill: Zane fires a burst from his MNTIS Shoulder Cannon. The cannon has multiple charges and recharges over time.",
+              ranks: ["Fire MNTIS cannon (3 charges); each shot deals high damage and applies a vulnerability debuff"] },
+            { id: "zane_spy_best_served_cold", name: "Best Served Cold", tier: 1, col: 0, maxPoints: 5, type: "passive",
+              description: "Killing an enemy creates a Cryo nova that can freeze or slow nearby enemies.",
+              ranks: ["Cryo nova on kill (small radius)", "+20% radius", "+40% radius", "+60% radius, stronger slow", "+80% radius, chance to freeze"] },
+            { id: "zane_spy_antiperspirant", name: "Antiperspirant", tier: 1, col: 2, maxPoints: 5, type: "passive",
+              description: "Increases Cryo efficiency and Zane's resistance to Cryo damage.",
+              ranks: ["+8% Cryo efficiency, -10% Cryo damage taken", "+16%, -20%", "+24%, -30%", "+32%, -40%", "+40%, -50%"] },
+            { id: "zane_spy_domino_effect", name: "Domino Effect", tier: 2, col: 0, maxPoints: 5, type: "passive",
+              description: "Killing an enemy with an Action Skill immediately activates all of Zane's Kill Skills.",
+              ranks: ["Action Skill kills trigger Kill Skills at 20% effectiveness", "40%", "60%", "80%", "100%"] },
+            { id: "zane_spy_static_electricity", name: "Static Electricity", tier: 2, col: 2, maxPoints: 1, type: "augment",
+              description: "Action Skill Augment: MNTIS shots apply a Shock status effect to enemies they hit.",
+              ranks: ["MNTIS shots apply Shock; shocked enemies take +20% damage from all sources"] },
+            { id: "zane_spy_supersonic_man", name: "Supersonic Man", tier: 3, col: 0, maxPoints: 5, type: "passive",
+              description: "Killing an enemy increases Zane's movement speed for a short time. Kill Skills increase this bonus.",
+              ranks: ["+8% speed for 6s on kill", "+16%, 7s", "+24%, 8s", "+32%, 9s", "+40%, 10s"] },
+            { id: "zane_spy_under_fire", name: "Under Fire", tier: 3, col: 2, maxPoints: 5, type: "passive",
+              description: "Zane deals increased gun damage while airborne or sliding.",
+              ranks: ["+6% gun damage while airborne/sliding", "+12%", "+18%", "+24%", "+30%"] },
+            { id: "zane_spy_keep_your_wits", name: "Keep Your Wits", tier: 4, col: 0, maxPoints: 5, type: "passive",
+              description: "Increases Zane's gun damage and weapon handling while an Action Skill is active.",
+              ranks: ["+6% gun damage, +6% handling while Action Skill active", "+12%, +12%", "+18%, +18%", "+24%, +24%", "+30%, +30%"] },
+            { id: "zane_spy_deterrence_field", name: "Deterrence Field", tier: 4, col: 2, maxPoints: 5, type: "passive",
+              description: "Zane takes reduced damage while he has at least one active Action Skill.",
+              ranks: ["-6% damage taken with active skill", "-12%", "-18%", "-24%", "-30%"] },
+            { id: "zane_spy_tunnel_vision", name: "Tunnel Vision", tier: 5, col: 0, maxPoints: 5, type: "passive",
+              description: "Increases Zane's accuracy and critical hit damage while aiming down sights.",
+              ranks: ["+6% accuracy, +8% crit damage while ADS", "+12%, +16%", "+18%, +24%", "+24%, +32%", "+30%, +40%"] },
+            { id: "zane_spy_agile_agent", name: "Agile Agent", tier: 5, col: 2, maxPoints: 5, type: "passive",
+              description: "Zane deals increased gun damage while moving. The bonus stacks with movement speed bonuses.",
+              ranks: ["+6% gun damage while moving", "+12%", "+18%", "+24%", "+30%"] },
+            { id: "zane_spy_im_everywhere", name: "I'm Everywhere", tier: 6, col: 1, maxPoints: 1, type: "passive",
+              description: "Each MNTIS Shoulder Cannon kill reduces the cooldown of all of Zane's other active Action Skills.",
+              ranks: ["MNTIS kill: -3s cooldown on all other Action Skills"] }
+          ]
         }
       ]
     },
@@ -405,6 +493,50 @@ window.BL_DATA.bl3 = {
               description: "Moze leaves proximity mines behind when sprinting. These mines detonate when an enemy steps near them.",
               ranks: ["Drop proximity mines while sprinting"] }
           ]
+        },
+        /* DLC — Designer's Cut */
+        {
+          id: "moze_bear_mother",
+          name: "Bear Mother",
+          tierThresholds: [0, 5, 10, 15, 20, 25],
+          skills: [
+            { id: "moze_bm_as", name: "Iron Cub", tier: 0, col: 1, maxPoints: 1, type: "action",
+              description: "Action Skill: Moze deploys a smaller autonomous Iron Bear — Iron Cub — that fights alongside her instead of replacing her.",
+              ranks: ["Deploy Iron Cub to fight for 30s; Iron Cub uses the weapons equipped on Iron Bear's two arms"] },
+            { id: "moze_bm_cub_scout", name: "Cub Scout", tier: 1, col: 0, maxPoints: 5, type: "passive",
+              description: "Increases Iron Cub's health and damage.",
+              ranks: ["+10% Iron Cub HP, +8% Iron Cub damage", "+20%, +16%", "+30%, +24%", "+40%, +32%", "+50%, +40%"] },
+            { id: "moze_bm_smash_and_grab", name: "Smash and Grab", tier: 1, col: 2, maxPoints: 5, type: "passive",
+              description: "Iron Cub's melee attacks deal increased damage and generate bonus loot.",
+              ranks: ["+15% Iron Cub melee damage, +5% loot drop", "+30%, +10%", "+45%, +15%", "+60%, +20%", "+75%, +25%"] },
+            { id: "moze_bm_fire_it_up", name: "Fire It Up", tier: 2, col: 0, maxPoints: 5, type: "passive",
+              description: "Increases the effectiveness and duration of Moze's Kill Skills.",
+              ranks: ["+10% Kill Skill effect, +10% duration", "+20%, +20%", "+30%, +30%", "+40%, +40%", "+50%, +50%"] },
+            { id: "moze_bm_harmonious_havoc", name: "Harmonious Havoc", tier: 2, col: 2, maxPoints: 1, type: "passive",
+              description: "When Iron Cub kills an enemy, all of Moze's Kill Skills are immediately triggered.",
+              ranks: ["Iron Cub kills trigger Moze's Kill Skills at full effect"] },
+            { id: "moze_bm_bear_bait", name: "Bear Bait", tier: 3, col: 0, maxPoints: 5, type: "passive",
+              description: "Iron Cub periodically taunts nearby enemies, drawing their fire and away from Moze.",
+              ranks: ["Iron Cub taunts every 8s; reduces damage Moze takes by -6% during taunt", "-8%", "-10%", "-12%", "-15%"] },
+            { id: "moze_bm_energize", name: "Energize", tier: 3, col: 2, maxPoints: 5, type: "passive",
+              description: "While Iron Cub is active, Moze deals increased gun damage.",
+              ranks: ["+8% gun damage while Iron Cub is deployed", "+16%", "+24%", "+32%", "+40%"] },
+            { id: "moze_bm_fuel_economy", name: "Fuel Economy", tier: 4, col: 0, maxPoints: 5, type: "passive",
+              description: "Reduces Iron Cub's fuel consumption rate and increases its cooldown rate after being recalled.",
+              ranks: ["-10% fuel consumption, +10% cooldown rate", "-20%, +20%", "-30%, +30%", "-40%, +40%", "-50%, +50%"] },
+            { id: "moze_bm_stainless_steel_cub", name: "Stainless Steel Cub", tier: 4, col: 2, maxPoints: 5, type: "passive",
+              description: "Increases Iron Cub's armor and the damage it deals.",
+              ranks: ["+10% Iron Cub armor, +6% Iron Cub damage", "+20%, +12%", "+30%, +18%", "+40%, +24%", "+50%, +30%"] },
+            { id: "moze_bm_gearhead", name: "Gearhead", tier: 5, col: 0, maxPoints: 5, type: "passive",
+              description: "Increases Moze's fire rate and gun damage after Iron Cub kills an enemy.",
+              ranks: ["+8% fire rate, +6% gun damage for 8s after Iron Cub kill", "+16%, +12%", "+24%, +18%", "+32%, +24%", "+40%, +30%"] },
+            { id: "moze_bm_not_my_circus", name: "Not My Circus", tier: 5, col: 2, maxPoints: 1, type: "augment",
+              description: "Iron Bear Augment: When Moze exits Iron Bear, Iron Cub is automatically deployed as a stationary turret for a short time.",
+              ranks: ["Exiting Iron Bear auto-deploys Iron Cub as a turret for 15s"] },
+            { id: "moze_bm_iron_will", name: "Iron Will", tier: 6, col: 1, maxPoints: 1, type: "passive",
+              description: "Iron Cub automatically revives once per deployment after being destroyed. When it revives, it gains bonus damage and health.",
+              ranks: ["Iron Cub auto-revives once per cooldown with +50% HP and +30% damage"] }
+          ]
         }
       ]
     },
@@ -531,6 +663,50 @@ window.BL_DATA.bl3 = {
             { id: "fl4k_friendbot", name: "Friendbot", tier: 6, col: 1, maxPoints: 1, type: "passive",
               description: "FL4K's pet shares FL4K's maximum health pool. When the pet is downed, FL4K loses half their health but the pet is immediately revived.",
               ranks: ["Pet and FL4K share HP; pet auto-revives at cost of half FL4K's HP"] }
+          ]
+        },
+        /* DLC — Designer's Cut */
+        {
+          id: "fl4k_trapper",
+          name: "Trapper",
+          tierThresholds: [0, 5, 10, 15, 20, 25],
+          skills: [
+            { id: "fl4k_trap_as", name: "Gravity Snare", tier: 0, col: 1, maxPoints: 1, type: "action",
+              description: "Action Skill: FL4K throws a Gravity Snare trap that launches nearby enemies into the air and stuns them briefly on landing.",
+              ranks: ["Deploy Gravity Snare; enemies launched take fall damage and are stunned for 3s; has 2 charges"] },
+            { id: "fl4k_trap_wooly_armor", name: "Wooly Armor", tier: 1, col: 0, maxPoints: 5, type: "passive",
+              description: "Increases damage reduction for FL4K and their pet.",
+              ranks: ["-6% damage taken (FL4K and pet)", "-12%", "-18%", "-24%", "-30%"] },
+            { id: "fl4k_trap_trap_mastery", name: "Trap Mastery", tier: 1, col: 2, maxPoints: 5, type: "passive",
+              description: "Increases Gravity Snare's duration and the stun duration of enemies it catches.",
+              ranks: ["+1 charge (total 3), +10% snare duration", "+20% duration", "+30% duration, +0.5s stun", "+40% duration, +1s stun", "+50% duration, +1.5s stun"] },
+            { id: "fl4k_trap_monkey_do", name: "Monkey Do", tier: 2, col: 0, maxPoints: 1, type: "passive",
+              description: "When FL4K uses an Action Skill, their pet immediately uses their Attack Command without cooldown.",
+              ranks: ["Pet Attack Command triggers free on FL4K Action Skill use"] },
+            { id: "fl4k_trap_predatory_drive", name: "Predatory Drive", tier: 2, col: 2, maxPoints: 5, type: "passive",
+              description: "FL4K's pet deals increased damage to enemies that are snared or airborne.",
+              ranks: ["+15% pet damage vs snared/airborne enemies", "+30%", "+45%", "+60%", "+75%"] },
+            { id: "fl4k_trap_pack_momentum", name: "Pack Momentum", tier: 3, col: 0, maxPoints: 5, type: "passive",
+              description: "While FL4K's pet is alive and nearby, FL4K deals increased gun damage.",
+              ranks: ["+6% gun damage while pet is near", "+12%", "+18%", "+24%", "+30%"] },
+            { id: "fl4k_trap_cosmic_stalker", name: "Cosmic Stalker", tier: 3, col: 2, maxPoints: 5, type: "passive",
+              description: "Increases the duration of all of FL4K's Kill Skills.",
+              ranks: ["+20% Kill Skill duration", "+40%", "+60%", "+80%", "+100%"] },
+            { id: "fl4k_trap_eager_to_impress", name: "Eager to Impress", tier: 4, col: 0, maxPoints: 5, type: "passive",
+              description: "Killing an enemy reduces FL4K's Action Skill cooldown.",
+              ranks: ["-0.8s cooldown per kill", "-1s", "-1.2s", "-1.4s", "-1.6s"] },
+            { id: "fl4k_trap_atomic_aroma", name: "Atomic Aroma", tier: 4, col: 2, maxPoints: 5, type: "passive",
+              description: "FL4K's pet emits a radiation aura that periodically damages nearby enemies.",
+              ranks: ["Pet radiation aura deals 10% pet damage/s in small area", "+20%", "+30%", "+40%", "+50% in larger area"] },
+            { id: "fl4k_trap_big_game", name: "Big Game", tier: 5, col: 0, maxPoints: 5, type: "passive",
+              description: "Increases the effectiveness of all of FL4K's Kill Skills.",
+              ranks: ["+10% Kill Skill effect", "+20%", "+30%", "+40%", "+50%"] },
+            { id: "fl4k_trap_monkey_business", name: "Monkey Business", tier: 5, col: 2, maxPoints: 1, type: "passive",
+              description: "When FL4K's pet performs an Attack Command on a Gravity Snare victim, the attack launches the enemy into the air again.",
+              ranks: ["Pet Attack Command on snared/airborne enemy relaunches them"] },
+            { id: "fl4k_trap_master_trapper", name: "Master Trapper", tier: 6, col: 1, maxPoints: 1, type: "passive",
+              description: "Gravity Snare now deploys up to 3 traps simultaneously. All active traps detonate together when any one of them catches an enemy.",
+              ranks: ["Deploy up to 3 Gravity Snares; catching one enemy detonates all of them in a chain"] }
           ]
         }
       ]
