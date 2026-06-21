@@ -12,7 +12,7 @@ window.BL_DATA.wonderlands = {
         {
           id: "brrzerker_tree",
           name: "Brr-Zerker",
-          tierThresholds: [0, 1, 5, 9, 13, 17],
+          tierThresholds: [0, 5, 10, 15, 20, 25],
           skills: [
             {
               id: "brrzerker_action_skill",
@@ -248,7 +248,7 @@ window.BL_DATA.wonderlands = {
         {
           id: "clawbringer_tree",
           name: "Clawbringer",
-          tierThresholds: [0, 1, 5, 9, 13, 17],
+          tierThresholds: [0, 5, 10, 15, 20, 25],
           skills: [
             {
               id: "clawbringer_action_skill",
@@ -466,7 +466,7 @@ window.BL_DATA.wonderlands = {
         {
           id: "graveborn_tree",
           name: "Graveborn",
-          tierThresholds: [0, 1, 5, 9, 13, 17],
+          tierThresholds: [0, 5, 10, 15, 20, 25],
           skills: [
             {
               id: "graveborn_action_skill",
@@ -692,7 +692,7 @@ window.BL_DATA.wonderlands = {
         {
           id: "spellshot_tree",
           name: "Spellshot",
-          tierThresholds: [0, 1, 5, 9, 13, 17],
+          tierThresholds: [0, 5, 10, 15, 20, 25],
           skills: [
             {
               id: "spellshot_action_skill",
@@ -908,7 +908,7 @@ window.BL_DATA.wonderlands = {
         {
           id: "sporewarden_tree",
           name: "Spore Warden",
-          tierThresholds: [0, 1, 5, 9, 13, 17],
+          tierThresholds: [0, 5, 10, 15, 20, 25],
           skills: [
             {
               id: "sporewarden_action_skill",
@@ -1107,7 +1107,7 @@ window.BL_DATA.wonderlands = {
         {
           id: "stabbomancer_tree",
           name: "Stabbomancer",
-          tierThresholds: [0, 1, 5, 9, 13, 17],
+          tierThresholds: [0, 5, 10, 15, 20, 25],
           skills: [
             {
               id: "stabbomancer_action_skill",
